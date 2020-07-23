@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingBottom="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="#ffffff"
+
+    tools:context="com.example.pictonary.draw">
+
+    <com.example.pictonary.CanvasView
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#F7EE182A"
+        android:fontFamily="casual"
+        android:onClick="clearCanvas"
+        android:text="Clear Canvas"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="300dp"
+        android:backgroundTint="#F7EE182A"
+        android:fontFamily="casual"
+        android:onClick="clearCanvas"
+        android:text="Check"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>

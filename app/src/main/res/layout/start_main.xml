@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F4FF81"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+
+        android:fontFamily="casual"
+
+        android:foregroundTint="#80D8FF"
+        android:gravity="center"
+
+        android:paddingTop="10dp"
+        android:shadowColor="#EA80FC"
+        android:text="Enter Word"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="120dp"
+        android:background="#F7EE182A"
+        android:fontFamily="casual"
+        android:gravity="clip_horizontal|center|clip_vertical"
+        android:text="Draw"
+
+        android:textAllCaps="false"
+        android:textSize="@android:dimen/notification_large_icon_width"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="#FF8A80"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:foregroundGravity="center"
+        android:foregroundTint="#80D8FF"
+        android:gravity="center"
+
+        android:hint="Word"
+        android:inputType="textPersonName"
+
+        android:shadowColor="#EA80FC"
+        android:textColor="#F7EE182A"
+        android:textSize="30sp" />
+
+</RelativeLayout>
